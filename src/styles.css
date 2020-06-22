@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+}
+.triangle {
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-color: rgb(245, 129, 127) transparent transparent transparent;
+  border-width: 45px 25px 0 25px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border-radius: 50%;
+}
+
+.semiCircle {
+  display: flex;
+  justify-content: space-around;
+}
+
+.semiCircleTop {
+  width: 100px;
+  height: 50px;
+  background-color: palegreen;
+  border-radius: 50px 50px 0 0;
+}
+
+.semiCircleBottom {
+  width: 100px;
+  height: 50px;
+  background-color: purple;
+  border-radius: 0 0 50px 50px;
+}
+
+.semiCircleLeft {
+  width: 50px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50px 0 0 50px;
+}
+
+.semiCircleRight {
+  width: 50px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 0 50px 50px 0;
+}
+
+.quarterCircle {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.quarterCircleTopLeft {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 50px 0 0 0;
+}
+
+.quarterCircleTopRight {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 0 50px 0 0;
+}
+
+.quarterCircleBottomLeft {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 0 0 50px 0;
+}
+
+.quarterCircleBottomRight {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+  border-radius: 0 0 0 50px;
+}
